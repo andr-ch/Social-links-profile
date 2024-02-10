@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(196, 253, 253);
+    font-family: 'Inter', sans-serif;
+    margin-top: 87px;
+    background:
+    url(images/windows-7-wallpaper-1440x900.jpg) center fixed; /* Layer 2 - Fixed background */
+    background-size: cover; /*Resize the background image to cover the entire container*/
+}
+
+
+footer {
+    color: #eff1f3;
+    font-family: 'Inter', sans-serif;
+    margin-top: 58px;
+}
+
+header {
+    font-size: small;
+    margin: 10px 71px auto;
+}
+
+
+button:active {       
+    color: linen;
+    opacity: 1;    
+}
+
+button:hover {
+    background-color:#C0E74D;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);      
+    cursor: pointer; /* Pointer/hand icon */
+    font-weight: bolder; /*makes the text bold when hovering on it*/
+    color: #4863A0;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+html, body {
+    /* Remove default margin and padding applied by the browser to the HTML and body elements */
+    margin: 0;
+    padding: 0;
+    /* Ensure full height of viewport - helpful for creating layouts that span the entire viewport height */
+    height: 100%;
+}
+
+
+main {
+    background-color: #232b2b;
+    width: 340px;
+    height: 612px;
+    color: #fcfcfc;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.btn-group {
+    display: flex; /* Use flexbox to arrange items in a row (default direction) */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;  /* Center items horizontally within the container */
+    border-radius: 13px 13px 13px 13px;
+    margin-top: 14px;
+}
+
+
+.btn-group button {
+    height: 47px;
+    width: 251px;
+    margin-bottom: 12px; /* Provide space between each button */
+}
+
+
+
+.circular {
+    border-radius: 100%;
+}
+
+
+
+.content {
+    text-align: center;
+  }
+
+
+.element {
+    /* Background properties */
+    background: url(images/1snapedit_square.jpg) center;
+    background-size: cover; /* Cover the entire container */
+    background-attachment: fixed; /* Fixed background */
+    
+    /* Flexbox properties */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+    /* Container dimensions */
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    
+    /* Remove any margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Media query for desktop view */
+@media (min-width: 768px) {
+    /* For desktop view, adjust container dimensions and center horizontally */
+    .element {
+        height: 44.5rem; /* Adjust height for desktop view */
+        width: 76.25rem; /* Adjust width for desktop view */
+        margin: 87px auto; /* Center horizontally with top margin for desktop view */
+        padding-top: 34px; /* Adjust top padding for desktop view */
+        padding-bottom: 34px; /* Adjust bottom padding for desktop view */
+    }
+}
+
+
+.introduction {
+    font-size: 14px;
+    margin: auto 37px auto;
+   /* color:#f0f1f2 */;
+   color: #B2BEB5;
+}
+
+
+.location {
+    font-size: 0.9375rem;
+    position: relative;
+    bottom: 12px;
+    margin: auto 76px auto;
+   /* color:#46E888;*/
+   color: #C2E255;
+}
+
+
+
+.profile-pic {
+    /* border-radius: 15px 15px 15px 15px; */
+    max-width: 30%;
+    margin: 22px 119px auto;
+}
+
+
+
+
+
+
