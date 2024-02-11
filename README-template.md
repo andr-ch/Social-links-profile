@@ -155,14 +155,16 @@ border-radius: 15px 15px 15px 15px;
 
 
 18. Adjusting the profile picture size to match the template:
-
 .profile-pic {
     max-width: 30%;
 }
 
 19. Creating an HTML button that functions similarly to a hyperlink:
+```html
 <a href="https://github.com/">
-    <button>GitHub
+    <button>GitHub</button>
+</a>
+```
 
 ### Useful resources
 
