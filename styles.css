@@ -1,7 +1,6 @@
 body {
     background-color: rgb(196, 253, 253);
     font-family: 'Inter', sans-serif;
-    margin-top: 87px;
     background:
     url(images/windows-7-wallpaper-1440x900.jpg) center fixed; /* Layer 2 - Fixed background */
     background-size: cover; /*Resize the background image to cover the entire container*/
