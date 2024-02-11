@@ -89,8 +89,8 @@ main {
     align-items: center; /* Center vertically */
     
     /* Container dimensions */
-    width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width - making sure that the container's size adapts to different screen sizes*/
+    height: 100vh; /* 100% of the viewport height - making sure that the container's size adapts to different screen sizes*/*/
     
     /* Remove any margin and padding */
     margin: 0;
