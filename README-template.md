@@ -161,9 +161,8 @@ border-radius: 15px 15px 15px 15px;
 }
 
 19. Creating an HTML button that functions similarly to a hyperlink:
-"<a href="https://github.com/">
+a href="https://github.com/"
     <button>GitHub</button>
-</a>"
 
 ### Useful resources
 
