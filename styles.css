@@ -10,6 +10,7 @@ footer {
     color: #eff1f3;
     font-family: 'Inter', sans-serif;
     margin-top: 58px;
+    display: none;
 }
 
 header {
@@ -107,6 +108,10 @@ main {
         margin: 87px auto; /* Center horizontally with top margin for desktop view */
         padding-top: 34px; /* Adjust top padding for desktop view */
         padding-bottom: 34px; /* Adjust bottom padding for desktop view */
+    }
+
+    footer {
+        display: none;
     }
 }
 
